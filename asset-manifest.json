@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/goose-track-frontend/static/css/main.01b3121c.css",
+    "main.js": "/goose-track-frontend/static/js/main.07d3183d.js",
+    "static/media/Inter-Bold.ttf": "/goose-track-frontend/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/goose-track-frontend/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Medium.ttf": "/goose-track-frontend/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter-Regular.ttf": "/goose-track-frontend/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Poppins-Regular.ttf": "/goose-track-frontend/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/goose-track-frontend/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "index.html": "/goose-track-frontend/index.html",
+    "main.01b3121c.css.map": "/goose-track-frontend/static/css/main.01b3121c.css.map",
+    "main.07d3183d.js.map": "/goose-track-frontend/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01b3121c.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
