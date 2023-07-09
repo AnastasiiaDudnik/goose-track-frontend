@@ -15,13 +15,12 @@ export const StatisticsChart = ({ data, mode }) => {
     const { x, y, width, value } = props;
     const radius = 10;
     const labelY = y - (y === 0 ? radius : 0);
-    // console.log(mode);
     return mode === 'dark' ? (
       <svg>
         <text
           x={x + 2 + width / 2}
           y={labelY}
-          fill="rgba(255, 255, 255, 1)"
+          fill="#000"
           fontSize={16}
           fontWeight={500}
           textAnchor="middle"
@@ -35,19 +34,17 @@ export const StatisticsChart = ({ data, mode }) => {
         <text
           x={x + 2 + width / 2}
           y={labelY}
-          fill="rgba(52, 52, 52, 1)"
+          fill="#fff"
           fontSize={16}
           fontWeight={500}
           textAnchor="middle"
           dominantBaseline="middle"
         >
-          {`${Math.round(value)}%`}
+          {`${value}%`}
         </text>
       </svg>
     );
   };
-
-  console.log(data.tasksStatistics);
 
   const {
     todoByDayPercentage,
