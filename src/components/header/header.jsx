@@ -18,7 +18,6 @@ import { getUserReview } from '../../redux/reviews/operations';
 import { selectUser } from '../../redux/auth/selectors';
 import { useLocation } from 'react-router-dom';
 import hay from './hay.png';
-import { selectTasks } from 'redux/tasks/selectors';
 
 export const Header = ({
   handleDrawerToggle,
@@ -26,7 +25,6 @@ export const Header = ({
   handleModeChange,
   mode,
 }) => {
-  const tasksInProgres = useSelector(selectTasks);
   const dispatch = useDispatch();
   const location = useLocation();
   const userState = useSelector(selectUser);
